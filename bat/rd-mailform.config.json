@@ -1,0 +1,9 @@
+{
+  "useSmtp": true,
+  "host": "smtp.office365.com",
+  "port": 587,
+  "username": "infoline.helpzone@gmail.com",
+  "password": "Android11",
+  "recipientEmail": "infoline.helpzone@gmai.com"
+
+}

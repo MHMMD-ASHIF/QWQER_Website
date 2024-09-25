@@ -1,0 +1,100 @@
+:root {
+    --header-color: #11406E;
+    --last-color: #818181;
+    --content-color: 313131
+
+  }
+.privacy_policy .header{
+    text-align: center;
+    margin: 2rem 0px;
+}
+
+.header h3{
+    font-size: 56px !important;
+    font-weight: 600;
+}
+
+h3{
+    color: var(--header-color);
+    font-size: 24px;
+    text-transform: none;
+
+}
+.sub_heading{
+    margin-bottom: 1rem;
+
+}
+.last_update{
+    margin-bottom: 2.5rem;
+}
+.last_update p{
+    color: var(--last-color);
+    font-size: 14px;
+}
+
+p{
+    color: var(--content-color);
+    font-size: 16px;
+}
+
+.sub_content{
+    margin-bottom: 2.5rem;
+}
+
+.container{
+    width: 1450px !important;
+}  
+
+.custom-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.custom-list > li {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px; 
+
+}
+
+.li_head {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.custom-list > li::before {
+    content: '•'; 
+    color: #11406E;
+    position: absolute;
+    left: 3;
+    font-size: 1.8em;
+    line-height: 1.2;
+}
+
+.custom-list > li.dot::before{
+    line-height: 1.1;
+}
+
+.custom-list > li > ul {
+    list-style-type: none;
+
+}
+
+.custom-list > li > ul > li {
+    margin-bottom: 5px;
+}
+
+.custom-list > li > ul > li::before {
+    content: ''; 
+}
+
+.content_body, .content_body p{
+    margin-bottom: 16px;
+}
+.custom-list li{
+    margin-bottom: 6px;
+}
+
+.mar{
+    margin-top: 10rem;
+}
