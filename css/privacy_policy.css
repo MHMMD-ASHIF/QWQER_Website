@@ -1,8 +1,11 @@
 :root {
-    --header-color: #11406E;
+    --header-color: #5A2D88;
     --last-color: #818181;
     --content-color: 313131
 
+  }
+  .rd-navbar-brand .brand{
+    width: 175px;
   }
 .privacy_policy .header{
     text-align: center;
